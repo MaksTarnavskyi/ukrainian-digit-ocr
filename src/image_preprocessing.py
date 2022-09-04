@@ -5,7 +5,7 @@ import numpy as np
 
 
 def process_image(image):
-    functions_to_apply = [get_grayscale, erode, remove_noise, opening]
+    functions_to_apply = [get_grayscale, opening, erode]
     processed_image = copy.deepcopy(image)
 
     for processing_func in functions_to_apply:
