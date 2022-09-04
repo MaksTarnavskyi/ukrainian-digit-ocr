@@ -1,0 +1,4 @@
+opencv-python
+pytesseract
+num2words
+python-Levenshtein
